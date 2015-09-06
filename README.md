@@ -1,4 +1,4 @@
-This project implements a sequential and a parallel solution for a Genetic Algorithm that uses the map-reduce pattern. The algorithm considers an initial population of random genes represented by strings, and evolves the population to be as close as possible to the individual "hello world". The fitness function is the edit-distance to the string "hello-world" and different genetic mutations are possible.
+This project implements a sequential and a parallel solution for a Genetic Algorithm that uses the map-reduce pattern. The algorithm considers an initial population of random genes represented by strings, and evolves the population to be as close as possible to the individual "hello world". The fitness function is the edit-distance to the string "hello-world". Both rank selection and roulette selection are possible. The genetic mutations happens either randomly or by cross-over. 
 
 #### Compilation
 	
